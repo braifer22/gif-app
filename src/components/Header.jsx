@@ -1,6 +1,7 @@
 import { Search } from './Search.jsx';
 import styles from './Header.module.css';
 import { useState } from 'react';
+import { arrayOf, func, string } from 'prop-types';
 
 export function Header({ onSubmit, categories }) {
     const [value, setValue] = useState('');
@@ -31,3 +32,8 @@ export function Header({ onSubmit, categories }) {
         </header>
     );
 }
+
+Header.propTypes = {
+    onSubmit: func,
+    categories: arrayOf(string),
+};
