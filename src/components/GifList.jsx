@@ -12,17 +12,24 @@ export function GifList({ category }) {
             {isLoading ? (
                 <p className={styles.loading}>Cargando...</p>
             ) : (
-                <ul className={styles.gifGrid}>
-                    {images.map((image) => {
-                        return (
-                            <GifItem
-                                key={image.id}
-                                src={image.url}
-                                title={image.title}
-                            />
-                        );
-                    })}
-                </ul>
+                <>
+                    <ul className={styles.gifGrid}>
+                        {images.map((image) => {
+                            return (
+                                <GifItem
+                                    key={image.id}
+                                    src={image.url}
+                                    title={image.title}
+                                />
+                            );
+                        })}
+                    </ul>
+                    {images.length === 0 && (
+                        <p>
+                            No encontramos Gifs sobre {category} {':('}
+                        </p>
+                    )}
+                </>
             )}
         </article>
     );
