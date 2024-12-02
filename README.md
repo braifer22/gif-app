@@ -1,7 +1,7 @@
 # 🎥 GIF App
 
-![GIF App Banner](![image](https://github.com/user-attachments/assets/cf522d9d-5058-4d39-8de6-3032dec1fc64)
-) <!-- Puedes reemplazar con una imagen relevante -->
+![GIF App Banner](![image](https://camo.githubusercontent.com/685fc49f5cbe7399ae90e2b9cb13ae116a2356039ca0ab6db9a4f7cba88a6936/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f383030783230303f746578743d4749462b417070)) <!-- Puedes reemplazar con una imagen relevante -->
+
 
 > Un proyecto desarrollado durante el curso **React Inicial** de [Fernando Herrera](https://cursos.devtalles.com/courses/react-cero-experto).
 
