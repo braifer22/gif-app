@@ -7,7 +7,8 @@
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "test": "vitest"
     },
     "dependencies": {
         "react": "^18.3.1",
@@ -26,7 +27,8 @@
         "eslint-plugin-react-refresh": "^0.4.14",
         "globals": "^15.12.0",
         "standard": "^17.1.2",
-        "vite": "^6.0.1"
+        "vite": "^6.0.1",
+        "vitest": "^2.1.7"
     },
     "eslintConfig": {
         "extends": "./node_modules/standard/eslintrc.json"
