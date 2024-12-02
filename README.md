@@ -2,7 +2,7 @@
 
 ![GIF App Banner](https://via.placeholder.com/800x200?text=GIF+App) <!-- Puedes reemplazar con una imagen relevante -->
 
-> Un proyecto desarrollado durante el curso **React Inicial** de [Fernando Herrera](https://fernando-herrera.com/).
+> Un proyecto desarrollado durante el curso **React Inicial** de [Fernando Herrera](https://cursos.devtalles.com/courses/react-cero-experto).
 
 ---
 
@@ -42,5 +42,6 @@ Este proyecto fue construido utilizando las siguientes herramientas:
 
 ### 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tu-usuario/gif-app.git
+git clone https://github.com/braifer22/gif-app.git
 cd gif-app
+
