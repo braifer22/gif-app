@@ -2,6 +2,7 @@
 
 ![GIF App Banner](https://via.placeholder.com/800x200?text=GIF+App) <!-- Puedes reemplazar con una imagen relevante -->
 
+
 > Un proyecto desarrollado durante el curso **React Inicial** de [Fernando Herrera](https://cursos.devtalles.com/courses/react-cero-experto).
 
 ---
