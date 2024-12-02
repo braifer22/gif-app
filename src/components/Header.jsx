@@ -34,6 +34,6 @@ export function Header({ onSubmit, categories }) {
 }
 
 Header.propTypes = {
-    onSubmit: func,
+    onSubmit: func.isRequired,
     categories: arrayOf(string),
 };
