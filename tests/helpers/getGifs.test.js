@@ -10,6 +10,8 @@ describe('Pruebas en getGifs', () => {
             id: expect.any(String),
             title: expect.any(String),
             url: expect.any(String),
+            height: expect.any(String),
+            width: expect.any(String),
         });
     });
 });
