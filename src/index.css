@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Inter;
+    src: url('./assets/Inter-VariableFont.ttf') format('.ttf');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 :root {
     color-scheme: only dark;
     scroll-behavior: smooth;
