@@ -3,7 +3,11 @@ import { string } from 'prop-types';
 export function GifItem({ title, src, height, width }) {
     return (
         <li>
-            <img src={src} alt={title} height={height} width={width} />
+            <img
+                src={src}
+                alt={title}
+                style={{ aspectRatio: `${width}/${height}` }}
+            />
             <p>{title}</p>
         </li>
     );
