@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import { string } from 'prop-types';
 import styles from './GifList.module.css';
 import { GifItem } from './GifItem';
 import { useFetchGifs } from '../hooks/useFetchGifs';
@@ -34,3 +34,7 @@ export function GifList({ category }) {
         </article>
     );
 }
+
+GifList.propTypes = {
+    category: string.isRequired,
+};
