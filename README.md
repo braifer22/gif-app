@@ -45,4 +45,6 @@ Este proyecto fue construido utilizando las siguientes herramientas:
 ```bash
 git clone https://github.com/braifer22/gif-app.git
 cd gif-app
+npm install
+npm run dev
 
