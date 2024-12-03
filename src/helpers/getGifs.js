@@ -9,6 +9,8 @@ export async function getGifs(category) {
             id: id,
             title: title,
             url: images.downsized_medium.url,
+            height: images.downsized_medium.height,
+            width: images.downsized_medium.width,
         };
     });
 

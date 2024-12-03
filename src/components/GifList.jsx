@@ -20,6 +20,8 @@ export function GifList({ category }) {
                                     key={image.id}
                                     src={image.url}
                                     title={image.title}
+                                    height={image.height}
+                                    width={image.width}
                                 />
                             );
                         })}
