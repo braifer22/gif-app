@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 import { useState } from 'react';
 import { arrayOf, func, string } from 'prop-types';
 
-export function Header({ onSubmit, categories }) {
+export function Header({ onSubmit, categories = [] }) {
     const [value, setValue] = useState('');
 
     function handleSubmit(event) {
@@ -18,7 +18,7 @@ export function Header({ onSubmit, categories }) {
 
     return (
         <header className={styles.header}>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} aria-label="form">
                 <label>
                     <Search width={18} strokeColor="rgb(102,102,102)" />
                     <input
